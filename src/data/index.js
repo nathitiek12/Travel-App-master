@@ -214,13 +214,8 @@ export const TOP_PLACES = [
 export const PLACES = [
   {
     id: 5,
-<<<<<<< HEAD
     image: require('../../assets/images/trips/koea.png'),
     title: 'Pyongyang',
-=======
-    image: require('../../assets/images/trips/645d5f28e26c7de2a280f71db15c2141.jpeg'),
-    title: 'Pyonyang',
->>>>>>> 8d6b20adf4b4d5fbe4d9fb9b1052985b909b1825
     location: 'North Korea',
     description:
       "Restricted access for foreigners, limited diplomatic relations, and strict government control.",
@@ -232,24 +227,12 @@ export const PLACES = [
   },
   {
     id: 2,
-<<<<<<< HEAD
     image: require('../../assets/images/trips/libya.jpg'),
-=======
-    image: require('../../assets/images/trips/eea622430834cb64b900c2f03e5be6b8.jpeg'),
-<<<<<<< HEAD
-    title: 'Naypyidaw',
-    location: 'Myanmar ',
-    description:
-      'Political unrest, human rights concerns, and occasional civil unrest.',
-    rating: 9.1,
-=======
->>>>>>> 8d6b20adf4b4d5fbe4d9fb9b1052985b909b1825
     title: 'Tripoli',
     location: 'Libya',
     description:
       'Ongoing political instability, security concerns, and occasional outbreaks of violence.',
     rating: 7.1,
->>>>>>> 7dc49c38716b67aa6a95362f64e84a6b964d44f8
     gallery: [],
     reviews: [REVIEWS[2], REVIEWS[1]],
     hotels: [HOTELS[10]],
@@ -257,22 +240,11 @@ export const PLACES = [
   },
   {
     id: 3,
-<<<<<<< HEAD
     image: require('../../assets/images/trips/iraq.png'),
-=======
-    image: require('../../assets/images/trips/0e627c12c05e4dd93ab122d618ea7849.jpeg'),
-<<<<<<< HEAD
-    title: 'Kyiv',
-    location: 'Ukraine',
-    description:
-      'Ongoing tensions, conflict, and occasional clashes in certain areas.',
-=======
->>>>>>> 8d6b20adf4b4d5fbe4d9fb9b1052985b909b1825
     title: 'Baghdad',
     location: 'Iraq',
     description:
       'Ongoing security challenges due to political instability and the presence of armed groups.',
->>>>>>> 7dc49c38716b67aa6a95362f64e84a6b964d44f8
     rating: 8.9,
     gallery: [],
     reviews: [REVIEWS[1], REVIEWS[2]],
@@ -282,22 +254,11 @@ export const PLACES = [
 
   {
     id: 7,
-<<<<<<< HEAD
     image: require('../../assets/images/trips/hondurus.png'),
-=======
-    image: require('../../assets/images/trips/c2dcbb54ca9316831b0f6ed4d4136dda.jpeg'),
-<<<<<<< HEAD
-    title: 'Saudi Arabia',
-    location: 'Riyadh',
-    description:
-      'Political and security concerns, restrictions on travel in some regions.',
-=======
->>>>>>> 8d6b20adf4b4d5fbe4d9fb9b1052985b909b1825
     title: 'Tegucigalpa',
     location: 'Honduras',
     description:
       'High crime rates, including gang-related violence and robbery.',
->>>>>>> 7dc49c38716b67aa6a95362f64e84a6b964d44f8
     rating: 9.2,
     gallery: [],
     reviews: [REVIEWS[2], REVIEWS[1]],
