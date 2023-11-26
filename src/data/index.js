@@ -11,6 +11,7 @@ const USERS = {
   },
 };
 
+
 const REVIEWS = {
   1: {
     id: 1,
@@ -162,15 +163,12 @@ export const TOP_PLACES = [
   {
     id: 1,
     image: require('../../assets/images/trips/2082f59465c39094ce90bebd0fcf8fa7.jpeg'),
-    title: 'Amalfi Coast',
-    location: 'Italy',
+    title: 'Damascus',
+    location: 'Syria',
     description:
-      'The ultimate Amalfi Coast travel guide, where to stay, where to eat, and what areas to visit in the Amalfi Coast of Italy. Positano, Ravello, Amalfi and more',
-    rating: 9.4,
-    gallery: [
-      require('../../assets/images/trips/3722dd4614a5a58f2ec8ebf17c22f76d.jpeg'),
-      require('../../assets/images/trips/af933a359582704eee05be198e882be0.jpeg'),
-    ],
+      'Ongoing conflict since 2011, leading to widespread instability, violence, and a humanitarian crisis.',
+    rating: 7,
+    gallery: [],
     reviews: [REVIEWS[2], REVIEWS[1]],
     hotels: [HOTELS[9], HOTELS[10]],
     type: 'PLACE',
@@ -178,10 +176,10 @@ export const TOP_PLACES = [
   {
     id: 4,
     image: require('../../assets/images/trips/922a0cb274208ccd234f6c14f2174b8b.jpeg'),
-    title: 'Granada',
-    location: 'Spain',
+    title: 'Marib',
+    location: 'Yemen',
     description:
-      'Granada is the capital city of the province of Granada, in the autonomous community of Andalusia, Spain',
+      'Ongoing conflict with a complex humanitarian crisis, including food and medical shortages.',
     rating: 8.9,
     gallery: [],
     reviews: [REVIEWS[1], REVIEWS[2]],
@@ -191,11 +189,37 @@ export const TOP_PLACES = [
   {
     id: 6,
     image: require('../../assets/images/trips/e57a2a310330ee1d8928eb75d416a53d.jpeg'),
-    title: 'Cherry blossoms',
-    location: 'Japan',
+    title: 'Kabul',
+    location: 'Afghanistan',
     description:
-      "Cherry blossoms usually bloom between mid-March and early May. In 2022, Tokyo's cherry blossom season officially began on March 20",
-    rating: 7.4,
+      "Ongoing security challenges due to political instability, insurgency, and terrorism.",
+    rating: 9,
+    gallery: [],
+    reviews: [REVIEWS[1], REVIEWS[2]],
+    hotels: [HOTELS[13], HOTELS[14]],
+    type: 'PLACE',
+  },
+  {
+    id: 8,
+    image: require('../../assets/images/trips/e57a2a310330ee1d8928eb75d416a53d.jpeg'),
+    title: 'Caracus',
+    location: 'Venezuela',
+    description:
+      "High crime rates, including street crime and armed robberies in some neighborhoods.",
+    rating: 9,
+    gallery: [],
+    reviews: [REVIEWS[1], REVIEWS[2]],
+    hotels: [HOTELS[13], HOTELS[14]],
+    type: 'PLACE',
+  },
+  {
+    id: 9,
+    image: require('../../assets/images/trips/e57a2a310330ee1d8928eb75d416a53d.jpeg'),
+    title: 'Cape Town',
+    location: 'South Africa',
+    description:
+      "Higher crime rates, including incidents of robbery and assault in specific urban areas.",
+    rating: 8.4,
     gallery: [],
     reviews: [REVIEWS[1], REVIEWS[2]],
     hotels: [HOTELS[13], HOTELS[14]],
@@ -224,11 +248,19 @@ export const PLACES = [
   {
     id: 2,
     image: require('../../assets/images/trips/eea622430834cb64b900c2f03e5be6b8.jpeg'),
+<<<<<<< HEAD
     title: 'Naypyidaw',
     location: 'Myanmar ',
     description:
       'Political unrest, human rights concerns, and occasional civil unrest.',
     rating: 9.1,
+=======
+    title: 'Tripoli',
+    location: 'Libya',
+    description:
+      'Ongoing political instability, security concerns, and occasional outbreaks of violence.',
+    rating: 7.1,
+>>>>>>> 7dc49c38716b67aa6a95362f64e84a6b964d44f8
     gallery: [],
     reviews: [REVIEWS[2], REVIEWS[1]],
     hotels: [HOTELS[3], HOTELS[4]],
@@ -237,23 +269,38 @@ export const PLACES = [
   {
     id: 3,
     image: require('../../assets/images/trips/0e627c12c05e4dd93ab122d618ea7849.jpeg'),
+<<<<<<< HEAD
     title: 'Kyiv',
     location: 'Ukraine',
     description:
       'Ongoing tensions, conflict, and occasional clashes in certain areas.',
+=======
+    title: 'Baghdad',
+    location: 'Iraq',
+    description:
+      'Ongoing security challenges due to political instability and the presence of armed groups.',
+>>>>>>> 7dc49c38716b67aa6a95362f64e84a6b964d44f8
     rating: 8.9,
     gallery: [],
     reviews: [REVIEWS[1], REVIEWS[2]],
     hotels: [HOTELS[5], HOTELS[6]],
     type: 'PLACE',
   },
+
   {
     id: 7,
     image: require('../../assets/images/trips/c2dcbb54ca9316831b0f6ed4d4136dda.jpeg'),
+<<<<<<< HEAD
     title: 'Saudi Arabia',
     location: 'Riyadh',
     description:
       'Political and security concerns, restrictions on travel in some regions.',
+=======
+    title: 'Tegucigalpa',
+    location: 'Honduras',
+    description:
+      'High crime rates, including gang-related violence and robbery.',
+>>>>>>> 7dc49c38716b67aa6a95362f64e84a6b964d44f8
     rating: 9.2,
     gallery: [],
     reviews: [REVIEWS[2], REVIEWS[1]],
