@@ -11,7 +11,6 @@ const USERS = {
   },
 };
 
-
 const REVIEWS = {
   1: {
     id: 1,
@@ -42,7 +41,7 @@ export const HOTELS = {
   2: {
     id: 2,
     title: 'Sultan Cave Suites',
-    image: require('../../assets/images/hotels/talisman_syria.jpeg'),
+    image: require('../../assets/images/hotels/talisman_syria.jpg'),
     location: 'Syria, Damascus',
     rating: 9.3,
     pricePeerDay: '230$',
@@ -51,7 +50,7 @@ export const HOTELS = {
   3: {
     id: 3,
     title: 'Balquee Hotel',
-    image: require('../../assets/images/hotels/balquee.jpeg'),
+    image: require('../../assets/images/hotels/balquee.jpg'),
     location: 'Yemen, Marib',
     rating: 8.4,
     pricePeerDay: '280$',
@@ -60,7 +59,7 @@ export const HOTELS = {
   4: {
     id: 4,
     title: 'Bilqis Hotel',
-    image: require('../../assets/images/hotels/belquis.jpeg'),
+    image: require('../../assets/images/hotels/belquis-marib.jpg'),
     location: 'Yemen, Marib',
     rating: 9.3,
     pricePeerDay: '190$',
@@ -68,14 +67,13 @@ export const HOTELS = {
   },
   5: {
     id: 5,
-    title: "Serena Hotel",
+    title: 'Serena Hotel',
     image: require('../../assets/images/hotels/serena_kabul.jpg'),
     location: 'Afghanistan, Kabul',
     rating: 9.2,
     pricePeerDay: '250$',
     type: 'HOTEL',
   },
- 
   6: {
     id: 6,
     title: 'Caracus Palace Hotel',
@@ -97,7 +95,7 @@ export const HOTELS = {
   8: {
     id: 8,
     title: 'Ryugyong Hotel',
-    image: require('../../assets/images/hotels/koreahotelry.jpg'),
+    image: require('../../assets/images/hotels/koreahotelry.png'),
     location: 'North Korea, Pyongyang',
     rating: 9.2,
     pricePeerDay: '330$',
@@ -124,7 +122,7 @@ export const HOTELS = {
   11: {
     id: 11,
     title: 'Al-Mansour',
-    image: require('../../assets/images/hotels/al-mansour.jpeg'),
+    image: require('../../assets/images/hotels/al-mansour.jpg'),
     location: 'Iraq, Baghdad',
     rating: 9.4,
     pricePeerDay: '120$',
@@ -140,7 +138,6 @@ export const HOTELS = {
     pricePeerDay: '740$',
     type: 'HOTEL',
   },
-
 };
 
 export const TOP_PLACES = [
@@ -176,7 +173,7 @@ export const TOP_PLACES = [
     title: 'Kabul',
     location: 'Afghanistan',
     description:
-      "Ongoing security challenges due to political instability, insurgency, and terrorism.",
+      'Ongoing security challenges due to political instability, insurgency, and terrorism.',
     rating: 9,
     gallery: [],
     reviews: [REVIEWS[1], REVIEWS[2]],
@@ -189,7 +186,7 @@ export const TOP_PLACES = [
     title: 'Caracus',
     location: 'Venezuela',
     description:
-      "High crime rates, including street crime and armed robberies in some neighborhoods.",
+      'High crime rates, including street crime and armed robberies in some neighborhoods.',
     rating: 9,
     gallery: [],
     reviews: [REVIEWS[1], REVIEWS[2]],
@@ -202,7 +199,7 @@ export const TOP_PLACES = [
     title: 'Cape Town',
     location: 'South Africa',
     description:
-      "Higher crime rates, including incidents of robbery and assault in specific urban areas.",
+      'Higher crime rates, including incidents of robbery and assault in specific urban areas.',
     rating: 8.4,
     gallery: [],
     reviews: [REVIEWS[1], REVIEWS[2]],
@@ -218,7 +215,7 @@ export const PLACES = [
     title: 'Pyongyang',
     location: 'North Korea',
     description:
-      "Restricted access for foreigners, limited diplomatic relations, and strict government control.",
+      'Restricted access for foreigners, limited diplomatic relations, and strict government control.',
     rating: 9.2,
     gallery: [],
     reviews: [REVIEWS[1], REVIEWS[2]],
