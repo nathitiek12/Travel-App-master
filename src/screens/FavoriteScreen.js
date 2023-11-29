@@ -1,32 +1,60 @@
-import React, {useState} from 'react';
+import React, {Component} from 'react';
 import {View, StyleSheet, Text} from 'react-native';
 import {colors} from '../constants/theme';
 import MainHeader from '../components/shared/MainHeader';
+import {HOTELS, TOP_PLACES} from '../data';
 
 const FavoriteScreen = () => {
   return (
     <View style={styles.container}>
       <MainHeader title="Favorite" />
-      <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+      <View style={styles.views}>
         <ShowFavorite />
       </View>
     </View>
   );
 };
 
-const ShowFavorite = props => {
-  const [fav, Setfave] = useState(null);
-  if (fav == null) {
-    return <Text>You do not have any Favorite</Text>;
-  } else {
-    return <Text>You have favorite</Text>;
+class ShowFavorite extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      hotel: HOTELS,
+      top_place: TOP_PLACES,
+      fav: [],
+    };
   }
-};
+
+  addToFavorite = id => {
+    const data = this.state.hotel.find(item => item.id === id);
+    this.setState({
+      fav: [...this.state.fav, data],
+    });
+  };
+
+  deleteToFavorite = id => {
+    const toDelete = this.state.fav.filter(item => item.id !== id);
+    this.setState({fav: toDelete});
+  };
+
+  render() {
+    if (this.state.fav.length === 0) {
+      return <Text>You don't have any favorite.</Text>;
+    } else {
+      return <Text>You have a fave</Text>;
+    }
+  }
+}
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.light,
+  },
+  views: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
 });
 

@@ -36,6 +36,7 @@ export const HOTELS = {
     location: 'Syria, Damascus',
     rating: 9,
     pricePeerDay: '130$',
+    fav: false,
     type: 'HOTEL',
   },
   2: {
@@ -45,6 +46,7 @@ export const HOTELS = {
     location: 'Syria, Damascus',
     rating: 9.3,
     pricePeerDay: '230$',
+    fav: false,
     type: 'HOTEL',
   },
   3: {
@@ -54,6 +56,7 @@ export const HOTELS = {
     location: 'Yemen, Marib',
     rating: 8.4,
     pricePeerDay: '280$',
+    fav: false,
     type: 'HOTEL',
   },
   4: {
@@ -63,6 +66,7 @@ export const HOTELS = {
     location: 'Yemen, Marib',
     rating: 9.3,
     pricePeerDay: '190$',
+    fav: false,
     type: 'HOTEL',
   },
   5: {
@@ -72,6 +76,7 @@ export const HOTELS = {
     location: 'Afghanistan, Kabul',
     rating: 9.2,
     pricePeerDay: '250$',
+    fav: false,
     type: 'HOTEL',
   },
   6: {
@@ -81,6 +86,7 @@ export const HOTELS = {
     location: 'Venezuela, Caracus',
     rating: 9.2,
     pricePeerDay: '210$',
+    fav: false,
     type: 'HOTEL',
   },
   7: {
@@ -90,6 +96,7 @@ export const HOTELS = {
     location: 'Venezuela, Caracus',
     rating: 9.4,
     pricePeerDay: '430$',
+    fav: false,
     type: 'HOTEL',
   },
   8: {
@@ -99,6 +106,7 @@ export const HOTELS = {
     location: 'North Korea, Pyongyang',
     rating: 9.2,
     pricePeerDay: '330$',
+    fav: false,
     type: 'HOTEL',
   },
   9: {
@@ -108,6 +116,7 @@ export const HOTELS = {
     location: 'South Africa, Cape Town',
     rating: 9.4,
     pricePeerDay: '350$',
+    fav: false,
     type: 'HOTEL',
   },
   10: {
@@ -117,6 +126,7 @@ export const HOTELS = {
     location: 'Libya, Tripoli',
     rating: 9.2,
     pricePeerDay: '230$',
+    fav: false,
     type: 'HOTEL',
   },
   11: {
@@ -126,6 +136,7 @@ export const HOTELS = {
     location: 'Iraq, Baghdad',
     rating: 9.4,
     pricePeerDay: '120$',
+    fav: false,
     type: 'HOTEL',
   },
 
@@ -136,6 +147,7 @@ export const HOTELS = {
     location: 'Honduras, Tegucigalpa',
     rating: 9.2,
     pricePeerDay: '740$',
+    fav: false,
     type: 'HOTEL',
   },
 };
@@ -220,6 +232,7 @@ export const PLACES = [
     gallery: [],
     reviews: [REVIEWS[1], REVIEWS[2]],
     hotels: [HOTELS[8]],
+    fav: false,
     type: 'PLACE',
   },
   {
@@ -233,6 +246,7 @@ export const PLACES = [
     gallery: [],
     reviews: [REVIEWS[2], REVIEWS[1]],
     hotels: [HOTELS[10]],
+    fav: false,
     type: 'PLACE',
   },
   {
@@ -246,6 +260,7 @@ export const PLACES = [
     gallery: [],
     reviews: [REVIEWS[1], REVIEWS[2]],
     hotels: [HOTELS[11]],
+    fav: false,
     type: 'PLACE',
   },
 
@@ -260,6 +275,7 @@ export const PLACES = [
     gallery: [],
     reviews: [REVIEWS[2], REVIEWS[1]],
     hotels: [HOTELS[12]],
+    fav: false,
     type: 'PLACE',
   },
 ];
