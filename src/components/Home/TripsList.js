@@ -14,8 +14,6 @@ const CARD_HEIGHT = 220;
 const TripsList = ({list}) => {
   const navigation = useNavigation();
 
-  const [fav, SetFav] = useState(false);
-
   return (
     <View style={styles.container}>
       {list.map((item, index) => {
@@ -34,7 +32,7 @@ const TripsList = ({list}) => {
                 <Text style={styles.title}>{item.title}</Text>
                 <Text style={styles.location}>{item.location}</Text>
               </View>
-              <FavoriteButton onPress={() => SetFav(!fav)} active={fav} />
+              <FavoriteButton add={item.id} type={item.type} />
             </CardContent>
           </Card>
         );

@@ -7,8 +7,14 @@ import TopPlacesCarousel from '../components/Home/TopPlacesCarousel';
 import {PLACES, TOP_PLACES} from '../data';
 import SectionHeader from '../components/shared/SectionHeader';
 import TripsList from '../components/Home/TripsList';
+import {useNavigation} from '@react-navigation/native';
+import SearchScreen from './SearchScreen';
 
-const HomeScreen = () => {
+const HomeScreen = props => {
+  function goToSearch(event) {
+    props.navigation.navigate(SearchScreen);
+  }
+
   return (
     <View style={styles.container}>
       <MainHeader title="Travel App" />
@@ -18,7 +24,7 @@ const HomeScreen = () => {
         <SectionHeader
           title="Popular Trips"
           buttonTitle="See All"
-          onPress={() => {}}
+          onPress={goToSearch}
         />
         <TripsList list={PLACES} />
       </ScrollView>

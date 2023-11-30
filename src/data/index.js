@@ -1,4 +1,4 @@
-const USERS = {
+export const USERS = {
   1: {
     id: 1,
     username: 'Alexia Jane',

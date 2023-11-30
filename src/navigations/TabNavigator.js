@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
     left: sizes.width / tabs.length / 2 - 5,
     bottom: 30,
     backgroundColor: colors.primary,
-    zIndex: 100,
+    zIndex: 50,
   },
 });
 

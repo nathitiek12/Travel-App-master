@@ -24,7 +24,6 @@ class ShowFavorite extends Component {
       fav: [],
     };
   }
-
   addToFavorite = id => {
     const data = this.state.hotel.find(item => item.id === id);
     this.setState({
@@ -41,7 +40,7 @@ class ShowFavorite extends Component {
     if (this.state.fav.length === 0) {
       return <Text>You don't have any favorite.</Text>;
     } else {
-      return <Text>You have a fave</Text>;
+      return <Text>{this.state.fav.toString()}</Text>;
     }
   }
 }

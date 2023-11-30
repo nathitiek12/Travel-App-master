@@ -9,6 +9,10 @@ export const colors = {
   light: '#fbfbfb',
   white: '#fff',
   black: '#000',
+  opaqueblack: '#00000080',
+  emerald: 'rgb(45,121,66)',
+  cyan: 'rgb(127,209,214)',
+  lime: 'rgb(237,244,181)',
 };
 
 export const shadow = {
